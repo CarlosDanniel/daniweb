@@ -492,19 +492,18 @@ aside {
 }
 @media (max-width: 600px){
 	.topo {
-		justify-content: unset;
+		justify-content: center;
 		height: 70px;
 		align-items: center;
 	}
 	.botmen {
+		left: 5px;
+		position: absolute;
 		display: block;
 		margin-bottom: 5px;
 	}
 	.esquerda {
 		margin: 0px;
-		margin-top: 20px;
-		margin-left: 50px;
-		margin-bottom: 15px;
 	}
 	aside {
 		display: block;
@@ -512,21 +511,32 @@ aside {
 	.direita {
 		display: none;
 	}
+	.meio {
+		margin: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	.menu {
 		display: none;
 	}
 	.fac {
-		max-width: 400px;
+		width: 350px;
 		flex-direction: column;
-		align-items: center;
 	}
 	footer {
 		display: none;
 	}
 	.videos {
 		height: auto;
+		justify-content: center;
+		display: flex;
 	}
 	.video1, .video2, .video3, .video4, .video5, .video6 {
-		max-width: 350px;
+		width: 350px;
+		height: 670px;
+	}
+	.desc {
+		height: 260px;
 	}
 }

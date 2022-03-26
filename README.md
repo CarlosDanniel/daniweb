@@ -1,1 +1,1 @@
-Primeira versão (beta)
+Atualização 1 (Site responsivo atualizado e login adicionado)
